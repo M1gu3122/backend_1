@@ -29,11 +29,11 @@ app.add_middleware(
 # Función para obtener conexión a la base de datos
 def get_db_connection():
     return pymysql.connect(
-        host: 'turntable.proxy.rlwy.net',
-        port: 37780,
-        user: 'root',
-        password: 'UbNzqhiFLQjnzESiEqkuAEPbLAKRtkPa',
-        database: 'railway',
+        host= 'turntable.proxy.rlwy.net',
+        port= 37780,
+        user= 'root',
+        password= 'UbNzqhiFLQjnzESiEqkuAEPbLAKRtkPa',
+        database= 'railway',
         cursorclass=pymysql.cursors.DictCursor,
     )
 
