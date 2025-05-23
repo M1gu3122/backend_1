@@ -31,9 +31,9 @@ def get_db_connection():
     return pymysql.connect(
         host= 'sql10.freesqldatabase.com',
         port= 3306,
-        user= 'sql10775148',
-        password= 'FNyzk66BUH',
-        database= 'sql10775148',
+        user= 'sql10780803',
+        password= 'gBigQc8MXP',
+        database= 'sql10780803',
         cursorclass=pymysql.cursors.DictCursor,
 
     )
